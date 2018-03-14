@@ -1,0 +1,4 @@
+echo '46.19.122.85 intra.42.fr' >> /etc/hosts
+
+
+Pour ce faire il faut être authentifié en tant que root.

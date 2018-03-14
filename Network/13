@@ -1,0 +1,12 @@
+cmd : 
+
+nslookup 10.51.1.253
+
+res :
+
+Server:		10.51.1.42
+Address:	10.51.1.42#53
+
+253.1.51.10.in-addr.arpa	name = dhcp.42.fr.
+
+server type : Le serveur est de type dhcp c'est à dire qu'il délivre des adresses IP aux ordinateurs qui se connectent sur le réseau.

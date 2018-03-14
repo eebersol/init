@@ -1,0 +1,1 @@
+/etc/resolv.conf est le fichier de configuration de la bibliothèque resolver permettant de déterminer, entre autre, quel(s) serveur(s) DNS est utilisé pour résoudre un nom de domaine.
