@@ -5,15 +5,15 @@ class Mailer {
 		this.transporter 	= nodemailer.createTransport({
 			service: "gmail",
 			auth: {
-				user: "edouard.ebersoldt@gmail.com",
-				pass: "@Flamme1994"
+				user: "",
+				pass: ""
 			}
 		});
 		this.mailOptions = {
-			from: "edouard.ebersoldt@gmail.com",
-			to: "jennifolive@gmail.com",
-			subject: 'COUCOU',
-			text: `JE TAIME`,
+			from: "",
+			to: "",
+			subject: 'Crontab change',
+			text: `cron change`,
 			html: `FOUFOU`,
 		}
 		this.transporter.sendMail(this.mailOptions, function(error, info){
