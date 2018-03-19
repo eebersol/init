@@ -3,17 +3,17 @@ const nodemailer = require('nodemailer');
 class Mailer {
 	constructor() {
 		this.transporter 	= nodemailer.createTransport({
-		  service: "gmail",
-		  auth: {
-		    user: "edouard.ebersoldt@gmail.com",
-		    pass: "edcxswqaz1994"
-		  }
+			service: "gmail",
+			auth: {
+				user: "edouard.ebersoldt@gmail.com",
+				pass: "@Flamme1994"
+			}
 		});
 		this.mailOptions = {
-			from: "edouard.ebersoldt@hotmail.fr",
-			to: "sai_yes@hotmail.fr",
+			from: "edouard.ebersoldt@gmail.com",
+			to: "jennifolive@gmail.com",
 			subject: 'COUCOU',
-			text: `TOUTOU`,
+			text: `JE TAIME`,
 			html: `FOUFOU`,
 		}
 		this.transporter.sendMail(this.mailOptions, function(error, info){

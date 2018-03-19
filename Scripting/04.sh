@@ -12,6 +12,8 @@ if [ -f "/root/crontab" ]
 			#	echo "Crontab change, send mail"
 				rm /root/crontab
 				cp /etc/crontab /root/crontab
+				node /root/mailer.js
+
 			}
 			fi
 	else
