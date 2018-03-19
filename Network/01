@@ -1,8 +1,9 @@
 #!/bin/bash
 
-#extend 
+#expand 
 # : converts tab to space
-
+# uniq -u
+# : silent rest of output
 #awk -F: '{printt $1;}
 # : print the first field after colon
 
