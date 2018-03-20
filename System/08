@@ -1,1 +1,1 @@
-Les clefs RSA autorisées à ce connecter en SSH sont stockées dans /etc/ssh/ssh_host_rsa_key
+ssLes clefs RSA autorisées à ce connecter en SSH sont stockées dans /root/.ssh/authorized_keys

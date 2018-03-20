@@ -12,8 +12,7 @@ if [ -f "/root/crontab" ]
 			#	echo "Crontab change, send mail"
 				rm /root/crontab
 				cp /etc/crontab /root/crontab
-				node /root/mailer.js
-
+				echo  'CRONTAB ERROR' | mail -s "contab error" root
 			}
 			fi
 	else

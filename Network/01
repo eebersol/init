@@ -1,10 +1,12 @@
 #!/bin/bash
 
-#expand 
+# expand 
 # : converts tab to space
+# sort
+# : needed by uniq
 # uniq -u
-# : silent rest of output
-#awk -F: '{printt $1;}
+# : evite les odublons
+# awk -F: '{printt $1;}
 # : print the first field after colon
 
 ifconfig | expand | cut -c1-8 | sort | uniq -u | awk -F: '{print $1;}'

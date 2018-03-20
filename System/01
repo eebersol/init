@@ -1,11 +1,1 @@
-Pour créer mon serveur debian :: 
-
-
-. docker-machine create --driver virtualbox Init
-. eval $(docker-machine env Init)
-. docker run -it --rm debian
-
-
-
-
-On trouve la version installé de Debian dans le fihcier /etc/debian_version.
+On trouve la version installé de Debian dans le fihcier /etc/debian_version
